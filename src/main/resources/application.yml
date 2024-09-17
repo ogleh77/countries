@@ -1,7 +1,8 @@
 spring:
   application:
     name: countries-app
-
+  profiles:
+    active: deployment
   datasource:
     url: jdbc:mysql://localhost:3306/country
     password: 1234

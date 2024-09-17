@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: countries-app
+  datasource:
+    url: jdbc:mysql://${DB_SERVICE}:3306/country
+    password: ${DB_PASSWORD}
+    username: ${DB_USERNAME}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8081
