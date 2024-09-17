@@ -71,6 +71,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>
+			countries-app
+		</finalName>
 	</build>
 
 </project>
